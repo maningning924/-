@@ -1,0 +1,133 @@
+*{margin:0;padding:0;border:0;}
+body{
+    margin:0;
+    padding:0;
+    font-family: Lato,Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.72222;
+    color: #34495e;
+    background-color: #fff;
+}
+.wrap {
+    min-width: 100%;
+    position: absolute;
+    background: #eff3f6 bottom;
+    min-height: 100%;
+    overflow: hidden;
+}
+.left{
+    
+    position: absolute;
+    box-sizing: border-box;
+    width: 200px;
+    height: 100%;
+    background: #4d5e70 bottom;
+}
+.logoDiv{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: 70px;
+    background-color: #354457;
+    font-size: 17px;
+    color: #fff;
+    vertical-align: bottom;
+    width:200px;
+}
+.logoTitle{
+    margin-left:70px;
+    line-height: 1.7;
+    
+}
+
+.right{
+    box-sizing: border-box;
+    float: left;
+    box-sizing: border-box;
+    padding-left: 200px;
+    overflow-y: overlay;
+    overflow-x: hidden;
+    clear: both;
+    color: #717592;
+    min-width: 100%;
+    min-height: 500px;
+}
+.left{
+    overflow: scroll;
+}
+.right{
+    overflow: auto;
+}
+
+/* 左 */
+*{margin:0;padding:0;border:0;}
+
+#nav {
+ display: block;
+  font-family: arial, 宋体, serif; font-size:15px;
+  line-height: 40px;  
+  list-style-type: none; 
+  width:200px;
+  /* background-color: #ce270a !important; */
+  margin-left:5px;
+  margin-top:10px;
+}
+#nav a {
+ display: block; width: 100px; text-align:center;
+}
+#nav a:link  {
+ color:#FFF; text-decoration:none;
+}
+#nav a:visited  {
+ color:#FFF;text-decoration:none;
+}
+#nav a:hover  {
+ color:#FFF;text-decoration:none;font-weight:bold;
+}
+
+#nav li {
+	width: 200px; 
+}
+#nav li a{
+	width: 200px; text-align:left;padding-left:20px;
+}
+#nav li a:hover{
+	background:#354457;
+}
+#nav li dl {
+ line-height: 27px;  list-style-type: none;text-align:left;
+ left: -999em; width: 200px;display:none;
+}
+#nav li dl dd{
+ float: left;
+ width: 200px;
+ background: #F6F6F6; 
+}
+
+#nav li dl a{
+ display: block; width: 200px;width: 200px;text-align:left;padding-left:24px;
+}
+#nav li dl a:link  {
+ color:#666; text-decoration:none;
+}
+#nav li dl a:visited  {
+ color:#666;text-decoration:none;
+}
+#nav li dl a:hover  {
+ color:#F3F3F3;text-decoration:none;font-weight:normal;
+ background: #354457;
+}
+
+#nav li:hover dl {
+ left: auto;
+ display:block;
+}
+#nav li.sfhover dl {
+ left: auto;
+}
+#nav li.sfhover a {
+ float:left;
+ color : #00FF00;
+}
+#mrc {
+ clear: left; 
+}

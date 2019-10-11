@@ -1,0 +1,183 @@
+/* 轮播图 */
+ .my_lunbo{
+    background-color:#000000;
+} 
+
+/* 背景颜色 */
+.dao_1{
+    background-color:pink;
+}
+#lunbo{
+    width:1100px;
+    height:500px;
+    margin:0 auto;
+}
+#lunbo .t1{
+    width:1100px;
+    height:500px;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    width: 3% !important;
+    height:12%;
+    background-color:#000000;
+    border-radius: 0.4rem;
+    top:40% !important;
+}
+.carousel-indicators li{
+    width: 0.8rem !important;height:0.8rem !important;
+    background-color: #fff !important;
+    margin-left: 0.4rem ;
+    margin-right: 0.4rem ;
+    border-radius: 50% !important;
+}
+.carousel-indicators .active{
+    background-color:#000 !important;
+}
+/* 播放按钮 */
+.recommend .wrapper ul:hover{
+    overflow: hidden;
+    transform: translateY(-2%);
+    cursor: pointer;
+    box-shadow: 1px 4px 10px 2px #CCC; 
+    transition-property: transform;
+    transition-duration: 0.5s;
+    transform-style: preserve-3d;
+  }
+.play {
+    width: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+   
+    opacity: 0.8;
+    display: none;
+}
+/* 楼一右 小登陆 */
+.login_btn{
+    border:1px solid #000;
+    padding:0 10px;
+    border-radius:22px;
+    color:#000;
+
+}
+/* 热门音乐 */
+.hot_music{
+    width:1100px;
+    margin:0 auto;
+}
+.hot_music_bang{
+    width:100px;
+}
+.hot_bang_tu{
+    width:100px;
+}
+/* 排行榜 */
+.new_men_title{
+    font-size:15px;
+    color:#000 !important;
+}
+.hot_music_small{
+    width:20px;
+}
+
+.tran_1:hover{
+    transform:scale(1.1);
+}
+
+/* 楼层二 推荐歌手 */
+.hot_music_1{
+    margin:0 auto;
+}
+.loutu_1{
+    width:200px;
+}
+
+.loutu_2{
+    width:60px;height:75px;
+}
+.loutu_3{
+    width:60px;
+}
+
+.hot_ge_1{
+    font-size:12px;
+    color:#000;
+}
+.hot_ge_1
+.look_1{
+   display:block;
+   float:right;
+}
+/* 入驻歌手 */
+.but_men{
+
+    margin-left:70px;
+}
+
+.new_men_zi{
+    font-size:14px;
+    color:#000;
+}
+
+.my_bg_gray{
+    background:linear-gradient(to bottom,#f0f0f0,#e0e0e0);
+}
+.louboder_2{
+    border-bottom:2px solid red;
+}
+.col-3 px-0 mt-1{
+    display: block;
+    position: relative;
+}
+
+ul:hover.mask{
+    display: block;
+}
+.louzi_2{
+   
+    color:#000;
+    font-size:12px;
+   margin-bottom: 10px;
+    
+}
+/* 耳机商城 */
+
+.erji{
+    width:100%;
+    background:#000;
+}
+.erji_zi{
+    display: block;
+    font-family:Gotham,Verdana,sans-serif;
+    font-size:30px;
+    text-align: center;
+    color:#fff;
+}
+.erji_zi2{
+    color:#fff;
+    font-size:20px;
+}
+.erji_box{
+    border:1px solid gray;
+}
+* {box-sizing: border-box;margin: 0;padding: 0} 
+.box, .aa img{width: 320px;height: 350px;overflow: hidden;}  /*范围之外不可见*/
+.text { 
+    background: rgba(0,0,0,.5);
+    padding: 10px;
+    color:#fff;
+    font-size: 20px;
+    position: relative;
+    margin-top: 0;     /*text默认处于aa盒子下面,所以不可见*/
+    transition: .5s}   /*transition为过渡动画效果，时间0.5秒*/ 
+.box:hover .text {margin-top: -122px}   /*鼠标经过box, 则text逐渐上移到aa范围内*/
+ 
+.text span {font-size: 16px;color: #fff}
+.text span a{font-size: 16px;color: #fff}
+.text img {width: 100%}
+/* 底部 */
+.footer_zi>a{
+    color:#000;
+    font-size:12px;
+}

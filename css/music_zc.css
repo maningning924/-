@@ -1,0 +1,72 @@
+*{margin:0;padding:0;}
+		section{
+			width:100%;height:1000px;
+			border:0px solid #999;
+            background-image:url("/img/zc_login.jpg");
+			margin:auto;
+			color:#ddd;
+			}
+		div{
+			width:500px;height:400px;
+			background:rgba(90,90,90,0.2);
+			float:right;
+			margin-top:100px;
+			margin-right:125px;
+			padding:3px 7px;
+            border-radius:3px;
+            border:1px solid #fff;
+			}
+		th{font-size:18px;}
+		#d1{font-size:14px;}
+		input,button{
+			border:none;outline:0;
+			width:230px;height:30px;
+			margin-top:12px;
+			border-radius:3px;}
+		th{line-height:47px;}
+		a{color:#ddd;
+			text-decoration:none;}
+		td{text-align:right}
+        button{
+            background-color:#000;
+            color:#ddd;
+        }
+        span{font-size:10px;}
+        .wenzi_1{font-size:12px;}
+        
+        
+        .vali_info{/* 页面初始，验证消息不显示 */
+            display:none;
+        }
+        .txt_focus{/*当文本框获得焦点时穿上*/
+            border-top:2px solid #000;
+            border-left:2px solid #000;
+        }/*当文本框失去焦点时脱下*/
+        
+        .vali_success,.vali_fail{
+            background-repeat:no-repeat;
+          background-position:left center;
+            display:block;
+        }
+        /* 验证消息：验证通过时的样式 */
+        .vali_success{
+            background-image:url("/img/ok.png");
+            padding-left:20px;
+            width:0px;height:20px;
+            overflow:hidden;
+        }
+        /* 验证消息：验证失败时的样式 */
+        .vali_fail{
+            background-image:url("/img/err.png");
+            border:1px solid red;
+            background-color:#ddd;
+            color:Red;
+            padding-left:20px;
+        }
+
+       
+
+
+        
+        
+        

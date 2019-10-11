@@ -1,0 +1,92 @@
+      body{
+			   margin:0;padding:0;
+		}
+	  #container{
+			    width:100%;height:1000px;
+			    border:0px solid #999;
+                background-image:url("/img/zc_login.jpg");
+			    margin:auto;
+			    color:#ddd;
+	     	}
+		#center{
+		         width:337px;height:297px;
+				 background:rgba(90,90,90,0.2);
+				 float:right;
+				 margin-top:100px;
+				 margin-right:225px;
+				 padding:3px 7px;
+				 border-radius:3px;
+				 border:1px solid #fff;
+				 }
+		#t1{
+                width:100%;
+		}
+		#title td{
+			  
+		        font-size:20px;
+				color:#fff;
+				text-align:center;
+				font-weight:lighter;
+		}
+		#center a{
+		    color:#fff;
+			text-decoration:none;
+			font-size:13px;
+		}
+		#center a:hover{
+		    color:#fff;
+			text-decoration:block;
+			font-size:13px;
+		}
+		#uname,#upwd{
+		    width:100%;
+			height:30px;
+			border:0;outline:0;
+            margin:12px 0 12px 15px;
+			padding:5px 10px;
+            box-sizing:border-box;
+			border-radius:4px;		 
+		}
+		.tu{
+			width:18px;
+			height:18px;
+			position:absolute;
+			right:350px;
+			top:310px;
+		}
+		.tu1{
+			top:250px;
+		}
+		#t1 .na{
+		    padding:0 20px;
+		}
+		#t1 #root{
+		    padding:0 13px;
+			color:#fff;
+			font-size:15px;			
+		}
+		#t1 button{
+	        width:86%;
+			height:37px;
+			border:0;
+			margin-top:10px;
+			margin-left:17px;
+			padding:0 10px;
+			background-color:#000;
+			border-radius:4px;
+			display:block;
+		}
+		.login_1{
+			color:#fff;
+		}
+.login_tubiao{
+	        width:20px;
+	        margin-top:15px;
+}
+#yzzh{
+
+	        position:absolute;
+          	margin-top:18px;
+        	font-size:10px;
+        	color:red;
+}

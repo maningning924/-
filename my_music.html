@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>我的音乐</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8">
+    <link href="bootstrap.min.js" rel="stylesheet" media="screen">
+    <script src="./jquery.min.js"></script>
+    <script src="popper.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="stylesheet" href="css/mymusic.css">
+
+</head>
+<body>
+
+
+    
+<div class="wrap">
+    <!-- 左边内容 -->
+    <div id="left" class="left">
+        <div id="logoDiv" class="logoDiv">
+            <p id="logoTitle" class="logoTitle">
+                <a href="first_page.html"><img id="music"  src="img/musicLogo.jpg"
+                     style="height: 50px; vertical-align: middle;"></a>
+                <span style="font-size:14px;">歌 &nbsp;&nbsp;&nbsp;单</span>
+            </p>
+        </div>
+        <ul id="nav">
+                <li><a href="#" class="title_1">我的</a>
+                 <dl>
+                 <dd><a href="#">-我的歌手</a></dd>
+                 <dd><a href="#">-我的收藏</a></dd>
+                 </dl>
+                </li>
+                <li><a href="#">推荐</a>
+                 <dl>
+                 <dd><a href="#">-推荐歌手</a></dd>
+                 <dd><a href="#">-入驻歌手</a></dd>
+                 </dl>
+                </li>
+                <li><a href="#">华语</a>
+                 <dl>
+                 <dd><a href="#">-华语男歌手</a></dd>
+                 <dd><a href="#">-华语女歌手</a></dd>
+                 <dd><a href="#">-华语组合乐队</a></dd>
+                 </dl>
+                </li>
+                <li><a href="#">欧美</a>
+                 <dl>
+                 <dd><a href="#">-欧美男歌手</a></dd>
+                 <dd><a href="#">-欧美女歌手</a></dd>
+                 <dd><a href="#">-欧美组合乐队</a></dd>
+                 </dl>
+                </li>
+                <li><a href="#">日本</a>
+                 <dl>
+                 <dd><a href="#">-日本男歌手</a></dd>
+                 <dd><a href="#">-日本女歌手</a></dd>
+                 <dd><a href="#">-日本组合乐队</a></dd>
+                 </dl>
+                </li>
+                
+                <li><a href="/">韩国</a>
+                 <dl>
+                 <dd><a href="/">-韩国男歌手</a></dd>
+                 <dd><a href="#">-韩国男歌手</a></dd>
+                 <dd><a href="#">-韩国男歌手</a></dd>
+                 </dl>
+                </li>
+                <li><a href="/">其他</a>
+                 <dl>
+                 <dd><a href="#">-其他男歌手</a></dd>
+                 <dd><a href="#">-其他女歌手</a></dd>
+                 <dd><a href="#">-其他组合乐队</a></dd>
+                 </dl>
+                </li>
+                </ul>
+    </div>
+    <!-- 右边内容 -->
+    <!-- page_search 搜索页 -->
+    <div class="right" id="pageSearch" >
+        <div class="main_container">
+            <div class="listcontainer">
+                <p style="margin:20px 40px;color:#bbb;" id="search_count">搜索 "<span class="input" style="color:#0b75c3;">STRING</span>"，共搜到
+                    <span class="count">0</span> 条结果，本页最多显示 100 条结果</p>
+                <div class="listtab">
+                    <div class="tabbtns clearfix">
+                        <label class="label_btn" for="song">单曲</label>
+                        <label class="label_btn" for="singer">歌手</label>
+                        <label class="label_btn" for="album">专辑</label>
+                        <label class="label_btn" for="musicvideo">MV</label>
+                        <label class="label_btn" for="playlist">歌单</label>
+                        <label class="label_btn" for="songlrc">歌词</label>
+                        <label class="label_btn" for="fm">主播电台</label>
+                        <label class="label_btn" for="user">用户</label>
+                    </div>
+                    <!-- song -->
+                    <input type="radio" id="song" name="tablist_s" checked="" />
+                    <div class="tabitem musiclist">
+                        <table>
+                            <thead>
+                            <tr>
+                                <th>&nbsp;&nbsp;</th>
+                                <th>操作</th>
+                                <th>音乐标题</th>
+                                <th>歌手</th>
+                                <th>专辑</th>
+                                <th>时长</th>
+                            </tr>
+                            </thead>
+                            <tbody class="infolist" id="infoList_search">
+                            <tr>
+                                <td class="index">01</td>
+                                <td><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
+                                    <i class="fa fa-download" aria-hidden="true"></i>
+                                </td>
+                                <td>-心跳(Live)-</td>
+                                <td>-于文文/杨和苏KeyNG-</td>
+                                <td>-中国新说唱2019第十一期-</td>
+                                <td>05:27</td>
+                            </tr>
+                            <tr>
+                                <td class="index">02</td>
+                                <td><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
+                                    <i class="fa fa-download" aria-hidden="true"></i>
+                                </td>
+                                <td>-致爸妈(Live)-</td>
+                                <td>-刘炫廷-</td>
+                                <td>-中国新说唱2019第十一期-</td>
+                                <td>03:20</td>
+                            </tr>
+                            <tr>
+                                <td class="index">03</td>
+                                <td><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
+                                    <i class="fa fa-download" aria-hidden="true"></i>
+                                </td>
+                                <td>-Hey KONG-</td>
+                                <td>-刘聪KEY.L-</td>
+                                <td>-Hey KONG-</td>
+                                <td>04:37</td>
+                            </tr>
+                            <tr>
+                                <td class="index">04</td>
+                                <td><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
+                                    <i class="fa fa-download" aria-hidden="true"></i>
+                                </td>
+                                <td>-奴隶-</td>
+                                <td>-Jony J-</td>
+                                <td>-奴隶-</td>
+                                <td>03:11</td>
+                            </tr>
+                            <tr>
+                                <td class="index">05</td>
+                                <td><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
+                                    <i class="fa fa-download" aria-hidden="true"></i>
+                                </td>
+                                <td>-都走了(Live)-</td>
+                                <td>-杨和苏KeyNG-</td>
+                                <td>-中国新说唱2019第九期-</td>
+                                <td>04:24</td>
+                            </tr>
+                            <tr>
+                                <td class="index">06</td>
+                                <td><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
+                                    <i class="fa fa-download" aria-hidden="true"></i>
+                                </td>
+                                <td>-逆流(Live)-</td>
+                                <td>-杨和苏KeyNG/Lil Boo-</td>
+                                <td>-中国新说唱2019第五期-</td>
+                                <td>03:11</td>
+                            </tr>
+                            <tr>
+                                <td class="index">07</td>
+                                <td><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
+                                    <i class="fa fa-download" aria-hidden="true"></i>
+                                </td>
+                                <td>-Black & Yellow-</td>
+                                <td>-嘿人李逵Noisemakers/刘炫廷-</td>
+                                <td>-中国新说唱2019第四期-</td>
+                                <td>02:33</td>
+                            </tr>
+                            <tr>
+                                <td class="index">08</td>
+                                <td><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
+                                    <i class="fa fa-download" aria-hidden="true"></i>
+                                </td>
+                                <td>-跳跳蛙-</td>
+                                <td>-C-BLOCK-</td>
+                                <td>-跳跳蛙-</td>
+                                <td>04:21</td>
+                            </tr>
+                            <tr>
+                                <td class="index">09</td>
+                                <td><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
+                                    <i class="fa fa-download" aria-hidden="true"></i>
+                                </td>
+                                <td>-哥们儿Freestyle-</td>
+                                <td>-刘聪KEY.L-</td>
+                                <td>-哥们儿Freestyle-</td>
+                                <td>03:11</td>
+                            </tr>
+                            <tr>
+                                <td class="index">10</td>
+                                <td><i class="fa fa-heart-o" aria-hidden="true"></i>&nbsp;
+                                    <i class="fa fa-download" aria-hidden="true"></i>
+                                </td>
+                                <td>-火力全开(FULL CLIP REMIX)-</td>
+                                <td>-V.O.B-</td>
+                                <td>-火力全开(FULL CLIP REMIX)-</td>
+                                <td>02:35</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- singer -->
+                    <input type="radio" id="singer" name="tablist_s" />
+                    <div class="tabitem singerlist">
+                        <p style="margin:100px 0;text-align:center;color:#bbb;font-size:1rem;">--分类功能暂未上线--</p>
+
+                    </div>
+                    <!-- album -->
+                    <input type="radio" id="album" name="tablist_s" />
+                    <div class="tabitem albumlist">
+                        <p style="margin:100px 0;text-align:center;color:#bbb;font-size:1rem;">--分类功能暂未上线--</p>
+                    </div>
+                    <!-- musicvideo -->
+                    <input type="radio" id="musicvideo" name="tablist_s" />
+                    <div class="tabitem musicvideolist">
+                        <p style="margin:100px 0;text-align:center;color:#bbb;font-size:1rem;">--分类功能暂未上线--</p>
+                    </div>
+                    <!-- playlist -->
+                    <input type="radio" id="playlist" name="tablist_s" />
+                    <div class="tabitem playlist">
+                        <p style="margin:100px 0;text-align:center;color:#bbb;font-size:1rem;">--分类功能暂未上线--</p>
+                    </div>
+                    <!-- songlrc -->
+                    <input type="radio" id="songlrc" name="tablist_s" />
+                    <div class="tabitem songlrclist">
+                        <p style="margin:100px 0;text-align:center;color:#bbb;font-size:1rem;">--分类功能暂未上线--</p>
+                    </div>
+                    <!-- fm -->
+                    <input type="radio" id="fm" name="tablist_s" />
+                    <div class="tabitem fmlist">
+                        <p style="margin:100px 0;text-align:center;color:#bbb;font-size:1rem;">--分类功能暂未上线--</p>
+                    </div>
+                    <!-- user -->
+                    <input type="radio" id="user" name="tablist_s" />
+                    <div class="tabitem userlist">
+                        <p style="margin:100px 0;text-align:center;color:#bbb;font-size:1rem;">--分类功能暂未上线--</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<script>
+
+</script>
+</html>
